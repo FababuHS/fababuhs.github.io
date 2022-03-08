@@ -96,7 +96,7 @@ cp 000-default.conf /etc/apache2/sites-available
 
 systemctl restart apache2 
 ~~~
-![]({{ site.url }}/img/stats.png)
+![Hola]({{ site.url }}/img/stats.png)
 ## Despliegue de la aplicación web
 Para realizar el despliegue de la aplicación clonaremos en nuestro local el repo de José Juan que contiene el código fuente y el script para la base de datos.
 ~~~
@@ -116,7 +116,7 @@ rm -rf /var/www/html/iaw-practica-lamp
 chown www-data:www-data /var/www/html -R
 systemctl restart apache2
 ~~~
-![]({{ site.url }}/img/app.png)
+![Hola]({{ site.url }}/img/app.png)
 ## Configuración certificado HTTPS
 Queremos solicitar un certificado https para nuestra aplicación. Vamos a solicitarlo a Certbot que ofrece certificados https gratuitos. Para isntalarlo necesitamos instalar snap antes, que es aun asistente de instalación de paquetes.
 ~~~
